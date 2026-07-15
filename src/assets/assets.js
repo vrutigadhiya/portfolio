@@ -109,7 +109,7 @@ export const projects = [
     tech: ["React", "Tailwind CSS", "Framer Motion"],
     icons: [FaReact, FaCloud],
     demo: "#",
-    code: "#",
+    code: "https://github.com/vrutigadhiya/portfolio",
   },
 ];
 
