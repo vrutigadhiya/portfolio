@@ -1,22 +1,21 @@
-import React from 'react'
-import Hero from '../components/Hero'
-import About from '../components/About'
-import Skills from '../components/Skills'
-import Projects from '../components/Projects'
-import Education from '../components/Education'
-import Contact from '../components/Contact'
+import React from "react";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import Education from "../components/Education";
+import Contact from "../components/Contact";
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <Hero />
       <About />
-      <Skills />
       <Projects />
       <Education />
       <Contact />
-    </div>
-  )
-}
+    </main>
+  );
+};
 
-export default Home
+export default Home;
