@@ -48,7 +48,8 @@ const Hero = () => {
                 ease: "easeInOut"
               }}
               className="relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover z-10 animate-float"
-              src={assets.profileImg} />
+              src={assets.profileImg} 
+              alt="Vruti Gadhiya" />
             </div>
           </div>
         </div>

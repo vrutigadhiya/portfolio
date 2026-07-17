@@ -6,7 +6,7 @@ const Projectcard = ({ title, description, image, tech, code }) => {
       <img
         src={image}
         alt={title}
-        loading="lazy"
+        fetchPriority="high"
         className="w-full h-52 sm:h-56 md:h-60 object-contain rounded-t-2xl bg-dark-200 transition-all duration-500 hover:scale-105"
       />
       <div className="p-6">

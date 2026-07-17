@@ -148,6 +148,7 @@ const Contact = () => {
               <div className="flex space-x-4">
                 <a
                   href="https://github.com/vrutigadhiya"
+                  aria-label="GitHub Profile"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:bg-purple hover:text-white transition duration-300"
@@ -157,6 +158,7 @@ const Contact = () => {
 
                 <a
                   href="https://www.linkedin.com/in/vruti-gadhiya-a87776328"
+                  aria-label="LinkedIn Profile"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-blue hover:bg-blue hover:text-white transition duration-300"
