@@ -4,12 +4,12 @@
 
 A modern, responsive, and interactive portfolio built with **React.js**, **Tailwind CSS**, and **Framer Motion** to showcase my projects, technical skills, and academic journey.
 
-<img src="./src/assets/project3.png" alt="Portfolio Preview" width="900"/>
-
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)]()
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)]()
+
+Demo : https://vrutigadhiya.vercel.app/
 
 </div>
 
