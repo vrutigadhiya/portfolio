@@ -7,7 +7,7 @@ const Education = () => {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1, ease: "easeOut" }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
       viewport={{ once: false, amount: 0.2 }}
       id="education"
       className="py-20 bg-dark-100"
@@ -33,9 +33,10 @@ const Education = () => {
 
                 {/* Box */}
                 <div className="bg-dark-300 rounded-2xl p-6">
-                  <div className="flex justify-between items-start mb-2">
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3 mb-2">
                     <h3 className="text-xl font-semibold">{data.degree}</h3>
-                    <span className="px-3 py-1 bg-purple/20 text-purple rounded-full text-xl md:text-sm">
+
+                    <span className="self-start sm:self-auto px-3 py-1 bg-purple/20 text-purple rounded-full text-sm whitespace-nowrap">
                       {data.duration}
                     </span>
                   </div>

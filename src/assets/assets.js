@@ -101,16 +101,7 @@ export const projects = [
     demo: "#",
     code: "https://github.com/vrutigadhiya/UrbanStay",
   },
-  {
-    title: "Developer Portfolio",
-    description:
-      "A modern, responsive portfolio website showcasing my projects, skills, education, and resume with smooth animations using Framer Motion.",
-    image: projectImg3,
-    tech: ["React", "Tailwind CSS", "Framer Motion"],
-    icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "https://github.com/vrutigadhiya/portfolio",
-  },
+  
 ];
 
 
