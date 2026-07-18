@@ -9,7 +9,7 @@ A modern, responsive, and interactive portfolio built with **React.js**, **Tailw
 [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)]()
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)]()
 
-Demo : https://vrutigadhiya.vercel.app/
+Demo : https://portfolio-vruti-gadhiya.vercel.app/
 
 </div>
 
