@@ -1,36 +1,53 @@
-import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot, FaLaptopCode } from 'react-icons/fa';
+import {
+  FaLightbulb,
+  FaPaintBrush,
+  FaCode,
+  FaReact,
+  FaServer,
+  FaMobileAlt,
+  FaTools,
+  FaNodeJs,
+  FaStripe,
+  FaVuejs,
+  FaFire,
+  FaDatabase,
+  FaCloud,
+  FaRobot,
+  FaLaptopCode,
+} from "react-icons/fa";
 
-import profileImg from '../assets/profile.webp';
-import projectImg1 from '../assets/project1.webp';
-import projectImg2 from '../assets/project2.webp';
-
+import profileImg from "../assets/profile.webp";
+import projectImg1 from "../assets/project1.webp";
+import projectImg2 from "../assets/project2.webp";
+import projectImg3 from "../assets/project3.webp";
 
 export const assets = {
-    profileImg,
-}
-
+  profileImg,
+};
 
 export const aboutInfo = [
-    {
-      icon: FaLightbulb,
-      title: 'Innovative',
-      description: 'I love creating unique solutions to complex problems with cutting-edge technologies.',
-      color: 'text-purple'
-    },
-    {
-      icon: FaPaintBrush,
-      title: 'Design Oriented',
-      description: 'Beautiful design and user experience are at the heart of everything I create.',
-      color: 'text-pink'
-    },
-    {
-      icon: FaCode,
-      title: 'Clean Code',
-      description: 'I write maintainable, efficient code following best practices and modern patterns.',
-      color: 'text-blue'
-    }
-  ];
-
+  {
+    icon: FaLightbulb,
+    title: "Innovative",
+    description:
+      "I love creating unique solutions to complex problems with cutting-edge technologies.",
+    color: "text-purple",
+  },
+  {
+    icon: FaPaintBrush,
+    title: "Design Oriented",
+    description:
+      "Beautiful design and user experience are at the heart of everything I create.",
+    color: "text-pink",
+  },
+  {
+    icon: FaCode,
+    title: "Clean Code",
+    description:
+      "I write maintainable, efficient code following best practices and modern patterns.",
+    color: "text-blue",
+  },
+];
 
 export const skills = [
   {
@@ -77,8 +94,6 @@ export const skills = [
   },
 ];
 
-
-
 export const projects = [
   {
     title: "Tastivo – Food Delivery App",
@@ -91,6 +106,16 @@ export const projects = [
     code: "https://github.com/vrutigadhiya/Tastivo",
   },
   {
+    title: "Chef Claude – AI Recipe Generator",
+    description:
+      "Developed an AI-powered recipe generator using React, Vercel Serverless Functions, and Groq AI. Users can add ingredients, choose serving size, generate detailed recipes with gas stove and oven methods, and export recipes as PDF, image, or copy them to the clipboard.",
+    image: projectImg3,
+    tech: ["React", "JavaScript", "Groq AI", "Vercel"],
+    icons: [FaReact],
+    demo: "https://chef-claude-react-psi.vercel.app/",
+    code: "https://github.com/vrutigadhiya/chef-claude-react",
+  },
+  {
     title: "UrbanStay – Airbnb Clone",
     description:
       "A full-stack property rental platform where users can list, edit, and book properties with authentication, image uploads, and a responsive interface built using the MVC architecture.",
@@ -100,9 +125,7 @@ export const projects = [
     demo: "#",
     code: "https://github.com/vrutigadhiya/UrbanStay",
   },
-  
 ];
-
 
 export const educationData = [
   {
