@@ -77,7 +77,7 @@ A full-stack MERN food delivery platform with authentication, cart management, o
 
 ---
 
-## 🏠 UrbanStay – Airbnb Clone
+## 🏠 UrbanStay
 
 A property rental platform with user authentication, property listings, image uploads, and a responsive interface following the MVC architecture.
 
