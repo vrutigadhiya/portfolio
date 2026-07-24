@@ -11,6 +11,7 @@ const Home = () => {
     <main>
       <Hero />
       <About />
+      <Skills />
       <Projects />
       <Education />
       <Contact />
