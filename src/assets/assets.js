@@ -20,6 +20,7 @@ import profileImg from "../assets/profile.webp";
 import projectImg1 from "../assets/project1.webp";
 import projectImg2 from "../assets/project2.webp";
 import projectImg3 from "../assets/project3.webp";
+import projectImg4 from "../assets/project4.webp"
 
 export const assets = {
   profileImg,
@@ -114,6 +115,16 @@ export const projects = [
     icons: [FaReact],
     demo: "https://chef-claude-react-psi.vercel.app/",
     code: "https://github.com/vrutigadhiya/chef-claude-react",
+  },
+  {
+    title: "Car Dealership Inventory Management System",
+    description:
+      "A full-stack MERN application for managing dealership inventory with secure admin authentication, vehicle CRUD operations, image uploads via Cloudinary, stock management, search and filtering, and a responsive dashboard.",
+    image: projectImg4,
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+    icons: [FaReact, FaNodeJs, FaDatabase, FaCloud],
+    demo: "https://car-dealership-inventory-system-plum.vercel.app/",
+    code: "https://github.com/vrutigadhiya/car-dealership-inventory-system",
   },
   {
     title: "UrbanStay – Airbnb Clone",
