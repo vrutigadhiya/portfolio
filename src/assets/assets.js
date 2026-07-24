@@ -127,7 +127,7 @@ export const projects = [
     code: "https://github.com/vrutigadhiya/car-dealership-inventory-system",
   },
   {
-    title: "UrbanStay – Airbnb Clone",
+    title: "UrbanStay",
     description:
       "A full-stack property rental platform where users can list, edit, and book properties with authentication, image uploads, and a responsive interface built using the MVC architecture.",
     image: projectImg2,
